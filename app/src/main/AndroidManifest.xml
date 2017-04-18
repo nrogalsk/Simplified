@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.niki.simplified">
 
+    //Give the app permission to access the internet
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,14 +26,12 @@
             android:name=".ClockActivity"
             android:label="@string/about_clock_activity" />
         <activity
-            android:name=".WeatherActivity"
-            android:label="@string/about_weather_activity" />
-        <activity
             android:name=".AboutActivity"
             android:label="@string/about_about_activity" />
 
-        <receiver android:name=".AlarmReceiver" >
-        </receiver>
+        <receiver android:name=".AlarmReceiver"></receiver>
+
+        <activity android:name=".WeatherActivity"></activity>
     </application>
 
 </manifest>
