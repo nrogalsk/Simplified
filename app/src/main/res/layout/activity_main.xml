@@ -73,7 +73,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="-4dp"
             android:layout_weight="0"
-            android:background="@color/colorAccent"/>
+            android:background="@drawable/border_line_around"
+            />
 
     </LinearLayout>
 
