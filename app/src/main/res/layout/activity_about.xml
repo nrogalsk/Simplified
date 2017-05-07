@@ -36,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/aboutUsPart01"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold"
                     android:text="@string/AboutUsParagraph01Title"
                     android:textSize="20sp"
@@ -45,12 +45,90 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/aboutUsPar1"
-                    android:textColor="@color/colorPrimary"
-                    android:text="@string/AboutUsParagraph01Text"
+                    android:id="@+id/aboutUsPar1_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph01_01Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar1_2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph01_02Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar1_3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph01_03Text"
                     android:textSize="15sp"
                     android:padding="5dp"/>
             </LinearLayout>
+
+            <!-- About the Developer -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:alpha="0.8">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPart02"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:text="@string/AboutUsParagraph02Title"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar2_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph02_01Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar2_2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph02_02Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar2_3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph02_03Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar2_4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph02_04Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutUsPar2_5"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/AboutUsParagraph02_05Text"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

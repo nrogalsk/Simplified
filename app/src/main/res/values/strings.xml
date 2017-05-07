@@ -9,17 +9,29 @@
     <string name="tab2Name">Clock</string>
     <string name="tab3Name">About Us</string>
     <string name="tab4Name">Mail</string>
-    <string name="AboutUsParagraph01Title">Title1</string>
-    <string name="AboutUsParagraph01Text">Paragraph 1</string>
-    <string name="AboutUsParagraph02Title">Title 2</string>
-    <string name="AboutUsParagraph02Text_01">Paragraph 2</string>
-    <string name="AboutUsParagraph02Text_02">Paragraph 2</string>
-    <string name="AboutUsParagraph02Text_03">Paragraph 2</string>
+
+    <!-- About Activity -->
+    <string name="AboutUsParagraph01Title">About Simplified</string>
+    <string name="AboutUsParagraph01_01Text">Simplified has been developed with simplification in mind. Apps these days are overcomplicated
+    and sometimes have too many features; most of which we would never use.</string>
+    <string name="AboutUsParagraph01_02Text">Simplified has extracted the weather we use most and presented them in one simple app.</string>
+    <string name="AboutUsParagraph01_03Text">The team at Simplified had technophobic people in mind when the idea for this app came about.
+        Whether you are an older person or someone who gets scared about using technology, Simplified wants to make it easy for someone to
+        learn how to use apps without all the complicated features that most apps have these days.</string>
+
+    <string name="AboutUsParagraph02Title">About the Developer</string>
+    <string name="AboutUsParagraph02_01Text">The developer behdind Simplified is Nicole Rogalski.</string>
+    <string name="AboutUsParagraph02_02Text">Nicole is a final year Computer Science and Software Engineering student at Deakin University.</string>
+    <string name="AboutUsParagraph02_03Text">App development sparked her interest back at the beginning of her 2nd year when she chose an introductory
+    app development elective.</string>
+    <string name="AboutUsParagraph02_04Text">The idea behind Simplified came when she was teaching her grandmother who to use apps on an Android device she had recently
+    bought but was overwhelmed with all the different types of apps and that you require more than one or two just to complete simple tasks.</string>
+    <string name="AboutUsParagraph02_05Text">Any questions, please contact Nicole via email  nrogalsk@deakin.edu.au</string>
 
     <string name="change_city">Change city</string>
 
 
-    <!-- Put your own APP ID here -->
+    <!-- Weather API Key -->
     <string name="open_weather_maps_app_id">58cc63f385073c3fee969117f9d53b5b</string>
 
     <string name="weather_sunny">&#xf00d;</string>

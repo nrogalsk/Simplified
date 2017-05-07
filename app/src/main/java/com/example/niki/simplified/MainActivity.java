@@ -78,9 +78,13 @@ public class MainActivity extends TabActivity {
 
 
         // add all tab to the tab host
+        //weather
         menuTab.addTab(tabSpec1);
+        //clock
         menuTab.addTab(tabSpec2);
+        //email
         menuTab.addTab(tabSpec4);
+        //about
         menuTab.addTab(tabSpec3);
 
         //set clock tab as the default tab
