@@ -7,13 +7,6 @@ import android.widget.Toast;
 
 import java.util.Properties;
 
-/**
- * The JavaMailTM API provides classes that model a mail system.
- * The javax.mail package defines classes that are common to all mail systems.
- * The javax.mail.internet package defines classes that are specific to mail systems based on
- * internet standards such as MIME, SMTP, POP3, and IMAP.
- */
-
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.PasswordAuthentication;
@@ -21,6 +14,13 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+
+/**
+ * The JavaMailTM API provides classes that model a mail system.
+ * The javax.mail package defines classes that are common to all mail systems.
+ * The javax.mail.internet package defines classes that are specific to mail systems based on
+ * internet standards such as MIME, SMTP, POP3, and IMAP.
+ */
 
 /**
  * Created by niki on 30/4/17.
