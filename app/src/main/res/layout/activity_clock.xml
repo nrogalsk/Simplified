@@ -18,6 +18,8 @@
         android:layout_margin="20dp"
         android:background="@drawable/border_line_around"
         android:checked="false"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"
         android:onClick="OnToggleClicked" />
 
 </LinearLayout>
