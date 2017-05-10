@@ -3,13 +3,15 @@
     package="com.example.niki.simplified">
 
     //Give the app permission to access the internet
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/aoo_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/aoo_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
