@@ -47,4 +47,10 @@
     <string name="place_not_found">Sorry, no data found.</string>
 
 
+    <string name="licensing_heading">Licensing</string>
+    <string name="licenses_paragraph_01">All iconography has been obtained from Icons8 with permission for commercial and personal use</string>
+    <string name="licenses_paragraph_02">Please visit Icons8 webiste for more information about their licensing</string>
+    <string name="licenses_paragraph_03">https://icons8.com/license/</string>
+
+
 </resources>
