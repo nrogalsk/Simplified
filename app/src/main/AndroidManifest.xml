@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.niki.simplified">
-
     //Give the app permission to access the internet
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -9,12 +8,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/aoo_icon"
+        android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/aoo_icon"
+        android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +23,10 @@
         <activity
             android:name=".EmailActivity"
             android:label="@string/about_email_activity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
         <activity
             android:name=".ClockActivity"
             android:label="@string/about_clock_activity" />
@@ -31,9 +34,11 @@
             android:name=".AboutActivity"
             android:label="@string/about_about_activity" />
 
-        <receiver android:name=".AlarmReceiver"></receiver>
+        <receiver android:name=".AlarmReceiver" />
 
-        <activity android:name=".WeatherActivity"></activity>
+        <activity android:name=".WeatherActivity"
+            android:label="@string/about_weather_activity" />
+
     </application>
 
 </manifest>

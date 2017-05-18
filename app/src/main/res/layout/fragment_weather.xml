@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         />
 
     <TextView
@@ -46,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="40sp"
         />
@@ -56,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/weather_icon"
         android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
         android:textAppearance="?android:attr/textAppearanceMedium"
         />
 
